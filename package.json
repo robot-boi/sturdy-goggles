@@ -1,8 +1,7 @@
 {
-  "name": "@minimal-kit/starter-vite-ts",
-  "author": "Minimals",
-  "version": "6.3.0",
-  "description": "Vite Starter & TypeScript",
+  "name": "vs-crms-client",
+  "description": "VS CRMS Client",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
