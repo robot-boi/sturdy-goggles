@@ -1,0 +1,21 @@
+import { Helmet } from 'react-helmet-async';
+
+import { CONFIG } from 'src/glonal-config';
+
+import { {{pascalCase pageName}}View } from 'src/sections/{{kebabCase pageName}}/view';
+
+// ----------------------------------------------------------------------
+
+const metadata = { title: `{{pascalCase pageName}} | Dashboard - ${CONFIG.appName}` };
+
+export default function {{pascalCase pageName}}Page() {
+  return (
+    <>
+      <Helmet>
+        <title> {metadata.title}</title>
+      </Helmet>
+
+      <{{pascalCase pageName}}View />
+    </>
+  );
+}

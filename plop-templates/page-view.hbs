@@ -1,0 +1,16 @@
+import Typography from '@mui/material/Typography';
+import { DashboardContent } from 'src/layouts/dashboard';
+
+// ----------------------------------------------------------------------
+
+type Props = {
+  title?: string;
+};
+
+export function {{pascalCase pageName}}View({ title = '{{pascalCase pageName}}' }: Props) {
+  return (
+    <DashboardContent maxWidth="xl">
+      <Typography variant="h4"> {title} </Typography>
+    </DashboardContent>
+  );
+}
