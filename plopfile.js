@@ -51,7 +51,7 @@ export default function (plop) {
       // Inject new navigation entry into config-nav-dashboard.tsx
       {
         type: 'modify',
-        path: 'src/layouts/config-nav-dashboard.tsx',
+        path: 'src/layouts/nav-config-dashboard.tsx',
         pattern: /(\/\* PLOP_INJECT_NAV \*\/)/g, // Add a placeholder in your nav config file
         template: `      { title: '{{pascalCase pageName}}', path: paths.dashboard.{{camelCase pageName}}.root, icon: ICONS.blank },\n$1`,
       },

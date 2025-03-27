@@ -77,6 +77,7 @@ export const navData: NavSectionProps['data'] = [
           { title: 'Six', path: paths.dashboard.group.six },
         ],
       },
+      /* PLOP_INJECT_NAV */
     ],
   },
 ];
