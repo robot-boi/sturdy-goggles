@@ -20,6 +20,7 @@ const PageThree = lazy(() => import('src/pages/dashboard/three'));
 const PageFour = lazy(() => import('src/pages/dashboard/four'));
 const PageFive = lazy(() => import('src/pages/dashboard/five'));
 const PageSix = lazy(() => import('src/pages/dashboard/six'));
+/* PLOP_INJECT_IMPORT */
 
 // ----------------------------------------------------------------------
 
@@ -62,6 +63,7 @@ export const dashboardRoutes: RouteObject[] = [
           { path: 'six', element: <PageSix /> },
         ],
       },
+      /* PLOP_INJECT_ROUTE */
     ],
   },
 ];

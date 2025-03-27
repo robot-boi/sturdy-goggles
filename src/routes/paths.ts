@@ -31,5 +31,6 @@ export const paths = {
       root: `${ROOTS.DASHBOARD}/contracts`,
       create: `${ROOTS.DASHBOARD}/contracts/create`,
     },
+    /* PLOP_INJECT_PATH */
   },
 };
